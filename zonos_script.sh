@@ -1,4 +1,5 @@
 apt install -y espeak-ng
+git clone https://github.com/Zyphra/Zonos.git
 pip install -U uv
 cd ./Zonos
 uv sync
