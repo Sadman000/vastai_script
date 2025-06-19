@@ -4,6 +4,6 @@ pip install -U uv
 cd ./Zonos
 uv sync
 uv pip install --system -e .
-echo "GRADIO_SHARE"
-echo $GRADIO_SHARE
+echo "GRADIO_SERVER_PORT check"
+echo $GRADIO_SERVER_PORT
 uv run gradio_interface.py
