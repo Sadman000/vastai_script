@@ -6,4 +6,6 @@ python3.12 -m venv .env_lin
 . ./.env_lin/bin/activate
 
 pip install -r requirements.txt
-python appzonos.py --inbrowser
+echo "requirements installed"
+python3 appzonos.py --inbrowser
+echo "open zonos"
