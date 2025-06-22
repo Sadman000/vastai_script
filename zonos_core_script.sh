@@ -7,5 +7,5 @@ python3.12 -m venv .env_lin
 
 pip install -r requirements.txt
 echo "requirements installed"
-python3 appzonos.py --inbrowser
+python3 appzonos.py --inbrowser --share --port 8001
 echo "open zonos"
