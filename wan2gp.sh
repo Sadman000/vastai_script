@@ -4,4 +4,4 @@ conda create -n wan2gp python=3.10.9
 conda activate wan2gp
 pip install torch==2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/test/cu124
 pip install -r requirements.txt
-python wgp.py --i2v-14B --attention sage --server-port 17860 --share   # Image-to-video
+python3 wgp.py --i2v-14B --attention sage --server-port 17860 --share   # Image-to-video
