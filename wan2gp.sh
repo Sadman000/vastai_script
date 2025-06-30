@@ -7,4 +7,4 @@ pip install -r requirements.txt
 # upgrade gradio to latest version otherwise api calls wont work
 pip install --upgrade gradio
 pip install --upgrade gradio_client
-python3 wgp.py --i2v-14B --attention sage --server-port 17860 --share   # Image-to-video
+python3 wgp.py --i2v-14B --server-port 17860 --share   # Image-to-video
