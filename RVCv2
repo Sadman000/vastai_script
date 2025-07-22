@@ -1,4 +1,4 @@
-sudo apt install p7zip
+sudo apt install -y p7zip
 wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/RVC1006Nvidia.7z
 7z x RVC1006Nvidia.7z
 cd RVC1006Nvidia
