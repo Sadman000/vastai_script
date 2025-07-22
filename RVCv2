@@ -1,0 +1,5 @@
+wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/RVC1006Nvidia.7z
+unzip RVC1006Nvidia.7z
+cd RVC1006Nvidia
+chmod +x run.sh
+./run.sh
